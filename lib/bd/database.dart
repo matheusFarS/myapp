@@ -12,7 +12,7 @@ class Database {
       textoCompleto: '''A Revolução Francesa foi resultado da crise política, econômica e social que a França enfrentou no final do século XVIII. Essa crise marcou o fim da monarquia absolutista que existia na França há séculos e da antiga ordem de privilégios que constituía o Antigo Regime francês. Nessa época, a França era governada por Luís XVI, e a sociedade era dividida em classes sociais, conhecidas como Estados:
 
 Primeiro Estado: clero;
-POBREZA
+
 Segundo Estado: nobreza;
 
 Terceiro Estado: povo, definição genérica que incorpora o restante da sociedade francesa.
