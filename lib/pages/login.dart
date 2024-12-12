@@ -121,7 +121,7 @@ class _LoginState extends State<Login> {
                                     ),
                                   );
                                 } else {
-                                  print('Usuário ou senha inválidos.');
+                              
                                 }
                               }
                             },
