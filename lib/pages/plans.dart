@@ -67,18 +67,18 @@ class _PlansState extends State<Plans> {
                         itemBuilder: (context, i) {
                           final planejamento = Database2.assuntos[i];
                           return Card(
-                            margin: EdgeInsets.all(8.0),
+                            margin: const EdgeInsets.all(8.0),
                             child: ExpansionTile(
                               title: Text(
                                 planejamento.titulo,
-                                style: TextStyle(
+                                style: const TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 18,
                                 ),
                               ),
                               subtitle: Text(
-                                'Data:' + planejamento.data,
-                                style: TextStyle(
+                                'Data:${planejamento.data}',
+                                style: const TextStyle(
                                   fontWeight: FontWeight.normal,
                                 ),
                               ),
@@ -88,13 +88,13 @@ class _PlansState extends State<Plans> {
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
-                                      Text(
+                                      const Text(
                                         'Formato:',
                                         style: TextStyle(fontWeight: FontWeight.bold),
                                       ),
                                       Text(planejamento.formato),
-                                      SizedBox(height: 8.0),
-                                      Text(
+                                      const SizedBox(height: 8.0),
+                                      const Text(
                                         'Conteúdo:',
                                         style: TextStyle(fontWeight: FontWeight.bold),
                                       ),
